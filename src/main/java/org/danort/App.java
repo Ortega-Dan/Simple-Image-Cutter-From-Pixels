@@ -10,6 +10,14 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
+        if (args.length == 0) {
+            // System.out.println("ortega.dan2010@gmail.com");
+            System.out.println("Version 0.1.1\n");
+            System.out.println("usage:\n imageCutter inputFile x1 y1 x2 y2 outputFileWithFileExtension");
+            System.out.println("\nSupported I/O file formats: png, jpeg, tiff\n");
+            return;
+        }
+
         BufferedImage image = ImageIO.read(new File(args[0]));
 
         // "845" VPOS="622" WIDTH="1450" HEIGHT="219"
