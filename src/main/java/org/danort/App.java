@@ -14,7 +14,7 @@ public class App {
             // System.out.println("ortega.dan2010@gmail.com");
             System.out.println("Version 0.1.1\n");
             System.out.println("usage:\n imageCutter inputFile x1 y1 x2 y2 outputFileWithFileExtension");
-            System.out.println("\nSupported I/O file formats: png, jpeg, tiff\n");
+            System.out.println("\nSupported I/O file formats: png, jpg, tif\n");
             return;
         }
 
