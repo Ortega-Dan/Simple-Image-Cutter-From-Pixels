@@ -6,9 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Debug (Launch)",
             "request": "launch",
-            "mainClass": "${file}","args": "/home/danort/Downloads/processing.do.tif/do.tif.png 352 278 1226 840 /home/danort/Downloads/new.png"
+            "mainClass": "org.danort.App",
+            "args": "testingIn.png 100 100 200 200 testingOut.png"
         }
     ]
 }
